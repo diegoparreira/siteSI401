@@ -4,49 +4,254 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site SI401</title>
+    <title>Site SI401 - Programação para WEB</title>
+    <link rel="stylesheet" href="global.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet"> 
 </head>
 <body>
     <div class="container">
         <!-- Layout header -->
-        <header>
-            <h1>
+        <header class="header">
+            <img class="header_logo" src="./assets/logotipo_cor.png" alt="Logotipo FT">
+            <h1 class="header_text">
                 SI401 - Programação para WEB
             </h1>
         </header>
         <!-- Layout nav -->
-        <nav>
-            <ul>
-                <li>
-                    <a href="./index.html">Home</a>
-                </li>
-                <li>
-                    <a href="./ementa.html">Ementa</a>
-                </li>
-                <li>
-                    <a href="./objetivos.html">Objetivos</a>
-                </li>
-                <li>
-                    <a href="./topicos.html">Tópicos</a>
-                </li>
-                <li>
-                    <a href="./referencias.html">Referências</a>
-                </li>
-                <li>
-                    <a href="./criterios.html">Critérios de avaliação</a>
-                </li>
-            </ul>
+        <nav class="navbar">
+            <a class="navbar_item" href="./index.html">Home</a>
+            <a class="navbar_item" href="./ementa.html">Ementa</a>
+            <a class="navbar_item" href="./objetivos.html">Objetivos</a>
+            <a class="navbar_item" href="./topicos.html">Tópicos</a>
+            <a class="navbar_item" href="./referencias.html">Referências</a>
+            <a class="navbar_item" href="./criterios.html">Critérios de avaliação</a>
         </nav>
         <!-- Layout section -->
-        <section>
-            <p>Esta página tem como objetivo concluir a primeira entrega da disciplina em uma atividade individual
-                que visa descrever sobre a disciplina SI401 - Programação para WEB, ministrada pelo professor
-                Guilherme Palermo Coelho.
-            </p>
+        <section class="content">
+            <ul class="list">
+                <li class="list_item">
+                    <h3 class="list_title">Unidade 0</h3>
+                    <p class="list_content">
+                        <span class="text_emphasis">Conteúdo:</span> instruções gerais sobre a disciplina.</p>
+                    <p class="list_content">
+                        <span class="text_emphasis">Objetivos:</span> descrever como será o funcionamento da disciplina ao longo do 
+                        semestre, mais especificamente o formato das aulas, o tema do Projeto
+                        Final, os critérios de avaliação e os plantões de dúvidas (monitorias).
+                    </p>
+                </li>
+                <li class="list_item">
+                    <h3 class="list_title">Unidade 1</h3>
+                    <p class="list_content">
+                        <span class="text_emphasis">Conteúdo:</span> visão geral sobre o funcionamento da web, com foco nas
+                        interações navegador-servidor, e contextualização da Programação para
+                        Web
+                    </p>
+                    <p class="list_content">
+                        <span class="text_emphasis">Objetivos:</span> descrever em linhas gerais os passos executados a cada
+                        requisição feita por um navegador a um servidor, interpretar uma
+                        mensagem HTTP e apresentar o que será discutido nesse semestre dentro
+                        do contexto de Programação para a Web.
+                    </p>
+                </li>
+                <li class="list_item">
+                    <h3 class="list_title">Unidade 2</h3>
+                    <p class="list_content">
+                        <span class="text_emphasis">Conteúdo:</span> Hypertext Markup Language (HTML) e estrutura de documentos
+                        HTML (tags, declarações DOCTYPE, elementos HTML e atributos de
+                        elementos HTML).
+                    </p>
+                    <p class="list_content">
+                        <span class="text_emphasis">Objetivos:</span> entender o que é HTML e construir documentos que contenham
+                        os elementos obrigatórios definidos no padrão.
+                    </p>
+                </li>
+                <li class="list_item">
+                    <h3 class="list_title">Unidade 3</h3>
+                    <p class="list_content">
+                        <span class="text_emphasis">Conteúdo:</span> exemplos de elementos HTML (parágrafos, títulos, imagens,
+                        hyperlinks, tabelas, listas e iFrames).
+                    </p>
+                    <p class="list_content">
+                        <span class="text_emphasis">Objetivos:</span> construir documentos HTML que utilizem os elementos mais
+                        comuns.
+                    </p>
+                </li>
+                <li class="list_item">
+                    <h3 class="list_title">Unidade 4</h3>
+                    <p class="list_content">
+                        <span class="text_emphasis">Conteúdo:</span> o elemento HEAD de HTML.
+                    </p>
+                    <p class="list_content">
+                        <span class="text_emphasis">Objetivos:</span> construir documentos HTML que possuam o elemento
+                        obrigatório HEAD em sua estrutura.
+                    </p>
+                </li>
+                <li class="list_item">
+                    <h3 class="list_title">Unidade 5</h3>
+                    <p class="list_content">
+                        <span class="text_emphasis">Conteúdo:</span> layouts via HTML.
+                    </p>
+                    <p class="list_content">
+                        <span class="text_emphasis">Objetivos:</span> estruturar o conteúdo de documentos HTML em layouts bem
+                        definidos
+                    </p>
+                </li>
+                <li class="list_item">
+                    <h3 class="list_title">Unidade 6</h3>
+                    <p class="list_content">
+                        <span class="text_emphasis">Conteúdo:</span> Cascade Style Sheets (CSS): definições, sintaxe e formas de
+                        utilização.
+                    </p>
+                    <p class="list_content">
+                        <span class="text_emphasis">Objetivos:</span> construir folhas de estilo que definam a aparência de um
+                        documento HTML e compreender a formatação que será aplicada a um
+                        elemento HTML por regras CSS já criadas.
+                    </p>
+                </li>
+                <li class="list_item">
+                    <h3 class="list_title">Unidade 7</h3>
+                    <p class="list_content">
+                        <span class="text_emphasis">Conteúdo:</span> Cascade Style Sheets (CSS): propriedades de fundo de tela, de
+                        texto e de fonte.
+                    </p>
+                    <p class="list_content">
+                        <span class="text_emphasis">Objetivos:</span> criar folhas de estilo que explorem as propriedades de fundo de
+                        tela, texto e de fonte de elementos HTML.
+                    </p>
+                </li>
+                <li class="list_item">
+                    <h3 class="list_title">Unidade 8</h3>
+                    <p class="list_content">
+                        <span class="text_emphasis">Conteúdo:</span> Cascade Style Sheets (CSS): propriedades abreviadas e o modelo
+                        de caixas (box model).
+                    </p>
+                    <p class="list_content">
+                        <span class="text_emphasis">Objetivos:</span> definição de layouts de páginas explorando o modelo de caixas
+                        de CSS.
+                    </p>
+                </li>
+                <li class="list_item">
+                    <h3 class="list_title">Unidade 9</h3>
+                    <p class="list_content">
+                        <span class="text_emphasis">Conteúdo:</span> programação no front-end com JavaScript: definições, sintaxe,
+                        instruções e o objeto DOM.
+                    </p>
+                    <p class="list_content">
+                        <span class="text_emphasis">Objetivos:</span> escrever programas básicos, em JavaScript, para serem
+                        executados em navegadores.
+                    </p>
+                </li>
+                <li class="list_item">
+                    <h3 class="list_title">Unidade 10</h3>
+                    <p class="list_content">
+                        <span class="text_emphasis">Conteúdo:</span> detecção e reação a eventos via JavaScript.
+                    </p>
+                    <p class="list_content">
+                        <span class="text_emphasis">Objetivos:</span> escrever programas, em JavaScript e que são executados no
+                        navegador, que reajam a eventos disparados pelo usuário.
+                    </p>
+                </li>
+                <li class="list_item">
+                    <h3 class="list_title">Unidade 11</h3>
+                    <p class="list_content">
+                        <span class="text_emphasis">Conteúdo:</span> manipulação de formulários HTML via JavaScript.
+                    </p>
+                    <p class="list_content">
+                        <span class="text_emphasis">Objetivos:</span> escrever programas, em JavaScript e que são executados no
+                        navegador, que manipulem dados fornecidos pelo usuário via formulários
+                        HTML.
+                    </p>
+                </li>
+                <li class="list_item">
+                    <h3 class="list_title">Unidade 12</h3>
+                    <p class="list_content">
+                        <span class="text_emphasis">Conteúdo:</span> orientação a objetos em JavaScript.
+                    </p>
+                    <p class="list_content">
+                        <span class="text_emphasis">Objetivos:</span> escrever programas, em JavaScript e que são executados no
+                        navegador, seguindo o paradigma de orientação a objetos.
+                    </p>
+                </li>
+                <li class="list_item">
+                    <h3 class="list_title">Unidade 13</h3>
+                    <p class="list_content">
+                        <span class="text_emphasis">Conteúdo:</span>programação no back-end com PHP: infraestrutura necessária e
+                        aspectos gerais da linguagem.
+                    </p>
+                    <p class="list_content">
+                        <span class="text_emphasis">Objetivos:</span> escrever programas simples, em PHP, que são executados no
+                        servidor.
+                    </p>
+                </li>
+                <li class="list_item">
+                    <h3 class="list_title">Unidade 14</h3>
+                    <p class="list_content">
+                        <span class="text_emphasis">Conteúdo:</span> aspectos específicos da linguagem PHP: operadores, estruturas
+                        de controle e funções.
+                    </p>
+                    <p class="list_content">
+                        <span class="text_emphasis">Objetivos:</span> escrever programas em PHP para serem executados no servidor.
+                    </p>
+                </li>
+                <li class="list_item">
+                    <h3 class="list_title">Unidade 15</h3>
+                    <p class="list_content">
+                        <span class="text_emphasis">Conteúdo:</span> PHP e formulários HTML, Server Side Includes.
+                    </p>
+                    <p class="list_content">
+                        <span class="text_emphasis">Objetivos:</span> escrever programas, em PHP, que recebam e manipulem dados
+                        enviados pelo usuário, do frontend, e a partir de formulários HTML.
+                    </p>
+                </li>
+                <li class="list_item">
+                    <h3 class="list_title">Unidade 16</h3>
+                    <p class="list_content">
+                        <span class="text_emphasis">Conteúdo:</span> orientação a objetos em PHP.
+                    </p>
+                    <p class="list_content">
+                        <span class="text_emphasis">Objetivos:</span> escrever programas, em PHP, seguindo o paradigma de
+                        orientação a objetos.
+                    </p>
+                </li>
+                <li class="list_item">
+                    <h3 class="list_title">Unidade 17</h3>
+                    <p class="list_content">
+                        <span class="text_emphasis">Conteúdo:</span> acesso a Bancos de Dados em PHP via PHP Data Objects (PDO).
+                    </p>
+                    <p class="list_content">
+                        <span class="text_emphasis">Objetivos:</span> escrever programas, em PHP, que manipulem bancos de dados.
+                    </p>
+                </li>
+                <li class="list_item">
+                    <h3 class="list_title">Unidade 18</h3>
+                    <p class="list_content">
+                        <span class="text_emphasis">Conteúdo:</span> Cookies e sessões em PHP.
+                    </p>
+                    <p class="list_content">
+                        <span class="text_emphasis">Objetivos:</span> escrever programas, em PHP, que mantenham sessões abertas
+                        durante a navegação de um mesmo usuário e permitam o fluxo de
+                        informações entre as páginas.
+                    </p>
+                </li>
+                <li class="list_item">
+                    <h3 class="list_title">Unidade 19</h3>
+                    <p class="list_content">
+                        <span class="text_emphasis">Conteúdo:</span> Comunicação assíncrona de dados entre back-end (aplicações em
+                        PHP) e front-end (scripts em JavaScript).
+                    </p>
+                    <p class="list_content">
+                        <span class="text_emphasis">Objetivos:</span> escrever aplicações, com front-end escrito em JavaScript e back-
+                        end em PHP, que troquem dados de maneira assíncrona.
+                    </p>
+                </li>
+            </ul>
+            <p class="reference">Fonte: <a href="https://moodle.ggte.unicamp.br/pluginfile.php/3094379/mod_resource/content/15/SI401B_PlanoEnsinoAprendizagem_v3.pdf">Link</a></p>
         </section>
         <!-- Layout footer -->
-        <footer>
-            <p>2022 - Criada por Diego Parreira - 166558</p>
+        <footer class="footer">
+            <p class="footer_text">2022 - Criada por Diego Parreira - 166558</p>
         </footer>
     </div>
 </body>

@@ -4,49 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site SI401</title>
+    <title>Site SI401 - Programação para WEB</title>
+    <link rel="stylesheet" href="global.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet"> 
 </head>
 <body>
     <div class="container">
         <!-- Layout header -->
-        <header>
-            <h1>
+        <header class="header">
+            <img class="header_logo" src="./assets/logotipo_cor.png" alt="Logotipo FT">
+            <h1 class="header_text">
                 SI401 - Programação para WEB
             </h1>
         </header>
         <!-- Layout nav -->
-        <nav>
-            <ul>
-                <li>
-                    <a href="./index.html">Home</a>
-                </li>
-                <li>
-                    <a href="./ementa.html">Ementa</a>
-                </li>
-                <li>
-                    <a href="./objetivos.html">Objetivos</a>
-                </li>
-                <li>
-                    <a href="./topicos.html">Tópicos</a>
-                </li>
-                <li>
-                    <a href="./referencias.html">Referências</a>
-                </li>
-                <li>
-                    <a href="./criterios.html">Critérios de avaliação</a>
-                </li>
-            </ul>
+        <nav class="navbar">
+            <a class="navbar_item" href="./index.html">Home</a>
+            <a class="navbar_item" href="./ementa.html">Ementa</a>
+            <a class="navbar_item" href="./objetivos.html">Objetivos</a>
+            <a class="navbar_item" href="./topicos.html">Tópicos</a>
+            <a class="navbar_item" href="./referencias.html">Referências</a>
+            <a class="navbar_item" href="./criterios.html">Critérios de avaliação</a>
         </nav>
         <!-- Layout section -->
-        <section>
-            <p>Esta página tem como objetivo concluir a primeira entrega da disciplina em uma atividade individual
-                que visa descrever sobre a disciplina SI401 - Programação para WEB, ministrada pelo professor
-                Guilherme Palermo Coelho.
-            </p>
+        <section class="content">
+            <h2>Critérios de avaliação</h2>
+            <img src="./assets/1.png" alt="Critério de avaliação">
+            <img src="./assets/2.png" alt="Critério de avaliação">
+            <img src="./assets/3.png" alt="Critério de avaliação">
+            <img src="./assets/4.png" alt="Critério de avaliação">
+            <p class="reference">Fonte: <a href="https://moodle.ggte.unicamp.br/pluginfile.php/3094379/mod_resource/content/15/SI401B_PlanoEnsinoAprendizagem_v3.pdf">Link</a></p>
         </section>
         <!-- Layout footer -->
-        <footer>
-            <p>2022 - Criada por Diego Parreira - 166558</p>
+        <footer class="footer">
+            <p class="footer_text">2022 - Criada por Diego Parreira - 166558</p>
         </footer>
     </div>
 </body>
